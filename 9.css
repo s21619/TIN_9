@@ -1,0 +1,11 @@
+.form-div {
+    margin: auto;
+    width: 20%;
+}
+.input-div {
+    margin: 5px;
+}
+.button-div {
+    display: flex;
+    justify-content: center;
+}

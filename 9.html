@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="9.css">
+    <title>Task9</title>
+</head>
+<body>
+    <div class="form-div">
+        <form>
+            <div class="input-div">
+                <label for="first">First number</label>
+                <input type="number" name="first" id="first">
+            </div>
+            <div class="input-div">
+                <label for="second">Second number</label>
+                <input type="number" name="second" id="second">
+            </div>
+            <div class="input-div">
+                <select name="oper" id="oper">
+                    <option value="+">Add</option>
+                    <option value="-">Subtract</option>
+                    <option value="*">Multiply</option>
+                    <option value="/">Divide</option>
+                </select>
+            </div>
+        </form>
+        <div class="button-div">
+            <button>Submit</button>
+        </div>
+        <p>The result is <span id="result"></span></p>
+    </div>
+    <script src="front.js"></script>
+</body>
+
+</html>
